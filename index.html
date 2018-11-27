@@ -2,101 +2,27 @@
 <html>
 <head>
 <title>Test</title>
-<!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="/styles/magnific-popup.css">
-<link rel="stylesheet" href="/styles/lightbox.css">
-<script async src="./javascript/popup.js"></script>
-<script async src="./javascript/popup.min.js"></script>
+
 </head>
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
-<p><a href="test.html"> Test</a></p>  
+<ul id="yt">
+<li><a href="http://www.youtube.com/watch?v=9A3ubsxyAac&t=0s&index=2&list=PLPp-E88EI-Z9ssq9lVLh9wvuTlSy-rjb-"> Test</a></li>  
+<li><a href="http://www.youtube.com/watch?v=mxCQ5IWQr6Y&t=0s&index=3&list=PLPp-E88EI-Z9ssq9lVLh9wvuTlSy-rjb-"> Test2</a></li>  
+<li><a href="http://www.youtube.com/watch?v=x0xNo6upWPU&t=0s&index=5&list=PLPp-E88EI-Z9ssq9lVLh9wvuTlSy-rjb-"> Test3</a></li>  
+</ul>
 
 
-<a class="popup-youtube" href="http://www.youtube.com/watch?v=9A3ubsxyAac&t=0s&list=PLPp-E88EI-Z9ssq9lVLh9wvuTlSy-rjb-&index=2">Open video</a>
 
 
- <div class="example gc3">
-    <h3>Popup with video or map</h3>
-    <p>12345</p>
-    <div class="html-code">
-      <a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">Open YouTube video</a><br/>
-      <a class="popup-vimeo" href="https://vimeo.com/45830194" >Open Vimeo video</a><br/>
-      <a class="popup-gmaps" href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&hl=en&t=v&hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom">Open Google Map</a>
-    </div>
-    <style type="text/css">
-      /**
-       * Simple fade transition,
-       */
-      .mfp-fade.mfp-bg {
-        opacity: 0;
-        -webkit-transition: all 0.15s ease-out; 
-        -moz-transition: all 0.15s ease-out; 
-        transition: all 0.15s ease-out;
-      }
-      .mfp-fade.mfp-bg.mfp-ready {
-        opacity: 0.8;
-      }
-      .mfp-fade.mfp-bg.mfp-removing {
-        opacity: 0;
-      }
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.colorbox-min.js"></script>
 
-      .mfp-fade.mfp-wrap .mfp-content {
-        opacity: 0;
-        -webkit-transition: all 0.15s ease-out; 
-        -moz-transition: all 0.15s ease-out; 
-        transition: all 0.15s ease-out;
-      }
-      .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
-        opacity: 1;
-      }
-      .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
-        opacity: 0;
-      }
-    </style>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-          disableOn: 700,
-          type: 'iframe',
-          mainClass: 'mfp-fade',
-          removalDelay: 160,
-          preloader: false,
+$(document).ready(function(e) {
+	$('#yt a').colorbox();
 
-          fixedContentPos: false
-        });
-      });
-    </script>
-  </div>
+});
 
-  <!-- <div class="example gc3">
-    <h3>Other variations</h3>
-    <div class="html-code">
-      <a id="inline-html-content" class="mfp-inline" data-mfp-src="#custom-content" href="#custom-content" >Open inline text block</a>
-    </div>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('#inline-html-content').magnificPopup({
-          disableOn:0,
-          alignTop: true,
-          marTop: 0,
-          marBottom: 0,
-          closeBtnInside: true,
-          mainClass: 'mfp-dark-close-button mfp-with-40-margin',
-          preloader: false
-        });
-      });
-    </script>
-  </div> -->
-  
-  
-  
-  
-<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-<script src="https://toki22.github.io/jquery.magnific-popup.min.js"></script>
-
-<!-- Magnific Popup core JS file -->
-<script src="https://toki22.github.io/jquery.magnific-popup.js"></script>
 </body>
 </html>
