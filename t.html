@@ -7,10 +7,7 @@
 		<!--script src="js/jquery.lint.js" type="text/javascript" charset="utf-8"></script-->
 		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
 		<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-		<!-- HTML5 -->
-        <script type="text/javascript" src="html5lightbox/jquery.js"></script>
-        <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
-        <!-- end of HTML5 -->
+		
 		<style type="text/css" media="screen">
 			* { margin: 0; padding: 0; }
 			
@@ -50,12 +47,7 @@
 		</style>
 	</head>
 	<body>
-		<p><a href="JavaScript:html5Lightbox.showLightbox(3, 'https://www.youtube.com/embed/YE7VzlLtp-4', 'YouTube lightbox');">YouTube Video</a></p>
-
-        <a href="https://youtu.be/hdf7DLv3an8" class="html5lightbox" data-width="480" data-height="320" title="Youtube video">CS Video</a>
-        
-        <!-- Test
-        <div id="main">
+		<div id="main">
 			<h1>prettyPhoto</h1>
 			
 			<p>This page has been made for testing purpose only. It covers all the basic things you can handle in prettyPhoto.</p>
@@ -63,11 +55,11 @@
 			<p>For complete documentation, please refer to the official website: <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/</a></p>
 
             https://youtu.be/9A3ubsxyAac
-            -->
+            
             <!--
             <a href="http://www.youtube.com/watch?v=qqXi8WmQ_WM" rel="prettyPhoto" title=""><img src="images/thumbnails/flash-logo.jpg" alt="YouTube" width="60" /></a>
             -->
-            <!--
+            
 			<div class="fleft">
 				<h2>YouTube1</h2>
 				<ul class="gallery clearfix">
@@ -83,7 +75,7 @@
 					<li><a href="http://youtu.be/kh29_SERH0Y?rel=0" rel="prettyPhoto" title="YouTube demo"><img src="images/thumbnails/flash-logo.png" width="60" alt="" /></a></li>
 				</ul>
 			</div>
-            --> 
+            
 			
 			<br /><br />
 			
@@ -109,11 +101,41 @@
 			});
 			</script>
 	
+			<!-- Google Maps Code -->
+			<script type="text/javascript"
+			    src="http://maps.google.com/maps/api/js?sensor=true">
+			</script>
+			<script type="text/javascript">
+			  function initialize() {
+			    var latlng = new google.maps.LatLng(-34.397, 150.644);
+			    var myOptions = {
+			      zoom: 8,
+			      center: latlng,
+			      mapTypeId: google.maps.MapTypeId.ROADMAP
+			    };
+			    var map = new google.maps.Map(document.getElementById("map_canvas"),
+			        myOptions);
+			  }
 
+			</script>
+			<!-- END Google Maps Code -->
 	
-
-
-</div>
-
+			<!-- BuySellAds.com Ad Code -->
+            <!--
+			<style type="text/css" media="screen">
+				.bsap a { float: left; }
+			</style>
+			<script type="text/javascript">
+			(function(){
+			  var bsa = document.createElement('script');
+			     bsa.type = 'text/javascript';
+			     bsa.async = true;
+			     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+			  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+			})();
+			</script>
+            -->
+			<!-- END BuySellAds.com Ad Code -->
+	</div>
 	</body>
 </html>
