@@ -39,7 +39,8 @@
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-  font-size: 18px; 
+  font-size: 18px;
+  font-size: 3.8vmin;
   border: none;
   outline: none;
   color: white;
