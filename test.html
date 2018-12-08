@@ -2,13 +2,34 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>My page</title>
-
+	<title>CS:GO Nades</title>
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="nav/nav.css">
 </head>
 <body>
-
+    <!-- Navigation Bar -->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">Settings</a>
+  <a href="#contact">Essentials</a>
+  <div class="dropdown">
+    <button class="dropbtn">Maps 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Cache</a>
+      <a href="#">Dust II</a>
+      <a href="#">Inferno</a>
+      <a href="#">Mirage</a>
+    </div>
+  </div> 
+<!--
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+-->
+</div>
+    
 	<!-- Your HTML content goes here -->
     https://youtu.be/x0xNo6upWPU
     <br>
@@ -49,8 +70,9 @@
     
     https://giant.gfycat.com/AnchoredClutteredBullfrog.mp4
     
-	<!-- JS -->
+	<!-- Javascript -->
 	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="nav/nav.js"></script>
 </body>
 </html>
