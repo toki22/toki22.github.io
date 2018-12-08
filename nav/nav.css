@@ -15,7 +15,8 @@
   text-decoration: none;
   font-size: 18px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  margin:auto;
+  margin-left:auto;
+      margin-right:auto;
 }
 
 /* Add an active class to highlight the current page */
