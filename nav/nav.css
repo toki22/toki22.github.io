@@ -37,8 +37,6 @@
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-  font-size: 18px;
-  font-size: 3.8vmin;
   border: none;
   outline: none;
   color: white;
@@ -67,6 +65,8 @@
   display: block;
   text-align: left;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  font-size: 3.4vmin;
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
