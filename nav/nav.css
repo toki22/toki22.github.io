@@ -2,10 +2,7 @@
 .topnav {
   background-color: #333;
   overflow: hidden;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  margin:auto;
-  /*margin-right:auto; */
-width:80%    
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;  
 }
 
 /* Style the links inside the navigation bar */
@@ -18,6 +15,7 @@ width:80%
   text-decoration: none;
   font-size: 18px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  margin:auto;
 }
 
 /* Add an active class to highlight the current page */
