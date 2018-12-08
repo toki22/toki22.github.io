@@ -13,7 +13,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 27px;
+  font-size: 18px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
@@ -36,7 +36,7 @@
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-  font-size: 17px; 
+  font-size: 18px; 
   border: none;
   outline: none;
   color: white;
