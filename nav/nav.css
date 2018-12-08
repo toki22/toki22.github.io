@@ -44,6 +44,8 @@
   background-color: inherit;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   margin: 0;
+      font-size: 20px;
+  font-size: 3.4vmin;
 }
 
 /* Style the dropdown content (hidden by default) */
@@ -54,6 +56,8 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+      font-size: 20px;
+  font-size: 3.4vmin;
 }
 
 /* Style the links inside the dropdown */
