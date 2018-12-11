@@ -22,7 +22,7 @@ pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; fon
 
 @media screen and (min-resolution: 200dpi) {
     body {
-        background-color: blue;
+        background-color: red;
     }
 }
 
