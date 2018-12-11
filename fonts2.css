@@ -26,6 +26,12 @@ pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; fon
     }
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ration: 5) {
+    body {
+        background-color: red;
+    }
+}
+
 @media screen and (any-pointer: none) {
     body {
         background-color: purple;
