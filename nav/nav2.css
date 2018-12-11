@@ -14,7 +14,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
-  font-size: 3.4vmax;
+  font-size: 3.4vmin;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
@@ -45,7 +45,7 @@
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   margin: 0;
       font-size: 20px;
-  font-size: 3.4vmax;
+  font-size: 3.4vmin;
 }
 
 /* Style the dropdown content (hidden by default) */
@@ -57,7 +57,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
       font-size: 20px;
-  font-size: 3.4vmax;
+  font-size: 3.4vmin;
 }
 
 /* Style the links inside the dropdown */
@@ -70,7 +70,7 @@
   text-align: left;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 20px;
-  font-size: 3.4vmax;
+  font-size: 3.4vmin;
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
