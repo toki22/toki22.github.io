@@ -38,6 +38,12 @@ pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; fon
     }
 }
 
+@media screen and (pointer: none) {
+    body {
+        background-color: purple;
+    }
+}
+
 @media screen and (max-resolution: 199dpi) {
     body {
         background-color: green;
