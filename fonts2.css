@@ -20,19 +20,6 @@ pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; fon
     }
 }
 
-@media screen and (min-resolution: 200dpi) and (max-resolution: 900dpi) {
-    body {
-        background-color: red;
-    }
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 1) and (-webkit-max-device-pixel-ration: 5) {
-    body {
-        background-color: red;
-    }
-}
-
-
 
 /*///////////////////// WORKING on iPhone
 
