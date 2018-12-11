@@ -32,25 +32,25 @@ pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; fon
     }
 }
 
-@media screen and (any-pointer: coarse) {
+@media (any-pointer:coarse) {
     body {
         background-color: purple;
     }
 }
 
-@media screen and (pointer: coarse) {
+@media (pointer:coarse) {
     body {
         background-color: purple;
     }
 }
 
-@media screen and (pointer: coarse) {
+@media (pointer: coarse) {
     body {
         background-color: purple;
     }
 }
 
-@media screen and (hover: none) {
+@media (hover:none) {
     body {
         background-color: green;
     }
