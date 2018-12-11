@@ -14,9 +14,15 @@ blockquote { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-ser
 
 pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 
-@media screen and (min-resolution: 200dpi) {
+@media screen {
     body {
         background-color: lightblue;
+    }
+}
+
+@media screen and (min-resolution: 200dpi) {
+    body {
+        background-color: blue;
     }
 }
 
