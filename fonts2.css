@@ -38,11 +38,6 @@ pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; fon
     }
 }
 
-@media (pointer:coarse) {
-    body {
-        background-color: purple;
-    }
-}
 
 /*///////////////////// WORKING on iPhone
 
