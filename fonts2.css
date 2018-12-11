@@ -20,7 +20,7 @@ pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; fon
     }
 }
 
-@media screen and (max-resolution: 900dpi) {
+@media screen and (min-resolution: 200dpi) and (max-resolution: 900dpi) {
     body {
         background-color: red;
     }
@@ -28,7 +28,7 @@ pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; fon
 
 @media screen and (any-pointer: none) {
     body {
-        background-color: red;
+        background-color: purple;
     }
 }
 
