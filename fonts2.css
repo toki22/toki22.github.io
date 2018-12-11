@@ -44,16 +44,18 @@ pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; fon
     }
 }
 
+/*///////////////////// WORKING on iPhone
+
 @media (pointer: coarse) {
     body {
         background-color: purple;
     }
 }
 
-/* WORKING on iPhone
 @media (hover:none) {
     body {
         background-color: green;
     }
 }
-*/
+
+/////////////////////*/
