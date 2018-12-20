@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CS:GO Nades</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="nav/nav3.css">
+    <link rel="stylesheet" type="text/css" href="fonts3.css">
+
+    <style>
+    .temp123 {
+  width:700px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+    </style>
+    
+    <style>
+    .temp1 {
+  width:700px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+   </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+<div class="topnav" id="myTopnav" align="center">
+  <a href="index.html" class="active">Home</a>
+  <a href="settings.html">Settings</a>
+  <a href="essentials.html">Essentials</a>
+  <div class="dropdown">
+    <button class="dropbtn">Maps 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="cache.html">Cache</a>
+      <a href="dust2.html">Dust II</a>
+      <a href="inferno.html">Inferno</a>
+      <a href="mirage.html">Mirage</a>
+    </div>
+    </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+    
+	<!-- HTML content -->
+
+<div class="temp1">
+  <h1 align="center">SETTINGS</h1>
+    <h3 align="center"><u>Jump-throw Bind</u></h3>
+    <p align="left">For consistent jump throws, use one of the following (replace n with any key): </p>
+    <p align="left"> <br>
+      1) One-Key Jump Throw
+      <p><u>In your config:</u></p>
+      <p> &nbsp;&nbsp;&nbsp;&nbsp;alias "+jumpthrow" "+jump;-attack"<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;alias "-jumpthrow" "-jump"<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;bind "n" "+jumpthrow"</p>
+      <p><u>In game: </u><br>
+    <ul><li>hold down mouse1 with your grenade
+    <li>press "n" </ul></p>
+    
+    <p align="left"> <br>
+      1) Two-Key Jump Throw
+    <p><u>In your config:</u></p>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;bind "n" "-attack"<br>
+    </p>
+    <p align="left">      
+    <p><u>In game: </u><br>
+  <ul><li>hold down mouse1 with your grenade
+    <li>press spacebar and "n" simultaneously using your thumb</ul></p>    
+    <br>
+    
+    <h3 align="center"><u>Large Crosshair Bind</u></h3>
+    <p align="left">To easily line up grenades, use one of the following (replace "v" with any key): </p>
+    <p align="left"> <br>
+      1) Hold to Enable Large Crosshair
+    <p><u>In your config:</u> [replace the third line with what your current corsshair settings are] </p>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;bind "v" "+nadexhair"<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;alias "+nadexhair" "cl_crosshairgap -10; cl_crosshairsize 5000"<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;alias "-nadexhair" "cl_crosshairgap -1; cl_crosshairsize 4"</p>
+    <p align="left">    
+    <p align="left">      
+    <p><u>In game: </u><br>
+  <ul><li>hold down "v" to enable the large crosshair
+    <li>letting go of "v" will disable the large crosshair</ul></p>
+    
+    <p align="left"> <br>
+      2) Toggle Large Crosshair
+      <p><u>In your config:</u> [replace the third line with what your current crosshair settings are]</p>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;bind "v" "nadexon"<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;alias "nadexon" "cl_crosshairgap -10; cl_crosshairsize 5000; bind v nadexoff"<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;alias "nadexoff" "cl_crosshairgap -1; cl_crosshairsize 4; bind v nadexon"</p>
+    <p><u>In game: </u><br>
+    <ul><li>press "v" to enable the large crosshair
+    <li>press "v" a second time to diable the large crosshair</ul></p>       
+
+<br>
+    <h3 align="center"><u>Grenade Practice Config</u></h3>
+    <p align="left">Execute this config in a game with bots to help practice utility usage. <br>
+      &nbsp;&nbsp;- &nbsp;&nbsp;My practice cfg has noclip bound to "k" and "apostrophe" will give you all grenades (you can replace these keys in practice.cfg).</p>
+    <ul><li>Download practice.cfg - click here
+<li>Place practice.cfg in the following folder: /Steam/userdata/######/730/local/cfg/
+<li>Start casual game with bots on any map
+<li>In game: open console and type "exec practice" (without quotes) and hit enter</ul></li>
+
+  
+ <!--   
+    <a data-fancybox href="LINK">
+        TITLE
+    </a> <br>
+    <a data-fancybox href="LINK">
+        TITLE
+    </a> <br>
+     <a data-fancybox href="LINK">
+        TITLE
+    </a> <br>
+    <a data-fancybox href="LINK">
+        TITLE
+    </a> <br>
+    <a data-fancybox href="LINK">
+        TITLE
+    </a> <br>
+
+-->
+</p>
+</div>
+
+	<!-- Javascript -->
+	<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="nav/nav.js"></script>
+    
+</body>
+</html>
