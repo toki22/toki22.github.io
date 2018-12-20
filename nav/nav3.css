@@ -122,3 +122,18 @@
     text-align: left;
   }
 }
+
+
+@media (hover:none) {
+	.topnav a {
+  font-size: 18px;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;
+}
+
+.dropdown-content a {
+  font-size: 20px;
+}
+}
