@@ -22,7 +22,7 @@ pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; fon
 }
 
 /* FOR MOBILE DEVICES */
-@media (hover:none) or (pointer: coarse) or (any-pointer:coarse) {
+@media (hover:none) {
 body {
         background-color: green;
     }
