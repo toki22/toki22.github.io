@@ -126,14 +126,14 @@
 
 @media (hover:none) {
 	.topnav a {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .dropdown .dropbtn {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .dropdown-content a {
-  font-size: 20px;
+  font-size: 24px;
 }
 }
