@@ -46,8 +46,20 @@ blockquote { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-ser
 
 pre { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
 
-a { color: black;
+a { color: black; }
+
+.topnav a {
+  font-size: 18px;
 }
+
+.dropdown .dropbtn {
+  font-size: 18px;
+}
+
+.dropdown-content a {
+  font-size: 20px;
+}
+
 }
 
 
